@@ -102,6 +102,19 @@ python snr_ruido.py --csv datos_ruido.csv
 
 ---
 
+### P6 — Digitalización de alta fidelidad
+**Script:** `practica6/alta_fidelidad.py`  
+**Librerías:** `numpy`, `matplotlib`, `scipy.signal`, `scipy.fft`
+
+Diseño automático del filtro Sallen-Key (calcula R y C con valores de la serie E24), verificación de Nyquist con FFT, diagrama de Bode y normalización Min-Max para preprocesamiento en el microcontrolador (TinyML/Edge Computing).
+
+```bash
+cd practica6
+python alta_fidelidad.py --simular
+python alta_fidelidad.py --csv datos_audio.csv --fs 10000
+```
+
+---
 
 ## Notas
 
